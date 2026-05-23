@@ -1,0 +1,3 @@
+from address_book import ADDRESS_BOOK_EVENTS
+
+USER_EVENTS = [*ADDRESS_BOOK_EVENTS]
