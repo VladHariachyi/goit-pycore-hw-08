@@ -29,10 +29,6 @@ def main():
         command, *args = parse_user_input(user_input)
 
         if command in ["close", "exit"]:
-            print(f"[gold1]Good bye![/gold1]")
-            break
-
-        if command == "save_and_exit":
             status = save_data(book, address_book_data_file_path)
             message = None
 
